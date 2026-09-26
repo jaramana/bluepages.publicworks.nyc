@@ -265,9 +265,6 @@ def main():
         pay[eid]["codes"].add(r["agency"])
         pay[eid]["years"][int(r["fiscal_year"])] += int(r["n"])
 
-    # The Pay Gap has a lookup page for each agency code in its index. Small codes have none.
-    paygap_slug = {r["agency"]: r["slug"] for r in json.load(open(PAYGAP.parent / "data" / "agencies-index.json"))}
-
     out = {}
     for eid, p in pay.items():
         codes = sorted(p["codes"])
@@ -278,7 +275,7 @@ def main():
             if w and w["suppressed"] == "FALSE":
                 median = round(float(w["median_salary"]))
         out[eid] = {"codes": codes, "latest": latest, "headcount": [[y, p["years"][y]] for y in sorted(p["years"])],
-                    "medianSalary": median, "paygap": [[c, paygap_slug[c]] for c in codes if c in paygap_slug]}
+                    "medianSalary": median}
     (ROOT / "docs/data/payroll.js").write_text(
         "// Citywide Payroll (k397-673e) via paygap.publicworks.nyc, joined by research/scripts/join_sources.py.\n"
         "window.PAYROLL = " + json.dumps(out, indent=0) + ";\n")

@@ -13,17 +13,6 @@
   var LOGO_ROOT       = '';
   var NONE            = '<span class="none">—</span><span class="visually-hidden">Not listed</span>';
 
-  // Sibling publicworks.nyc sites with a documented tie to one listing. Each destination was checked live.
-  var SEE_ALSO = {
-    'department-of-citywide-administrative-services': { site: 'NYC Civil Service Exams', url: 'https://civilservice.publicworks.nyc/',
-      what: 'Open and upcoming civil service exams, which this department runs.' },
-    'new-york-city-public-schools': { site: 'Schools Finder', url: 'https://schools.publicworks.nyc/',
-      what: 'Published statistics for each City public school.' },
-    'new-york-city-emergency-management': { site: 'NYC Hazard Historian', url: 'https://hazardhistorian.publicworks.nyc/',
-      what: 'Hazard events and their consequences, built on this agency’s Hazard History and other public records.' }
-  };
-  var PAYGAP = 'https://paygap.publicworks.nyc/lookup.html?agency=';
-
   var SOURCES = {
     list: { name: 'Agency list',  title: 'NYC Agencies and Governance Organizations', url: 'https://data.cityofnewyork.us/d/t3jq-9nkf',
             when: 'Retrieved 25 September 2026', what: 'Names, types, heads, reporting lines, websites.' },
@@ -325,26 +314,13 @@
         fact('Main phone', gb && gb.phone ? esc(gb.phone) : '', 'gb') +
         fact('Website', a.url ? '<a href="' + esc(a.url) + '">' + esc(shortUrl(a.url)) + '</a>' : '', 'list') +
         fact('Staff', pay ? fmt(a.staff) + ' <span class="sub">in fiscal year ' + a.staffYear + '</span>' + spark(pay.headcount) +
-          '<span class="def">Payroll records marked active that year, across salaried, hourly and daily pay.</span>' + paygapLinks(pay) : '', 'pay') +
-      '</dl>' + seeAlso(a) +
+          '<span class="def">Payroll records marked active that year, across salaried, hourly and daily pay.</span>' : '', 'pay') +
+      '</dl>' +
       section('Officials', gb ? gb.count : null, officials, 'gb') +
       section('Who reports here', children.length, listOf(children, a, 'None listed in this source.'), 'list') +
       (ps.length ? section('Also reporting to ' + esc(the(ps[0])), siblings.length, listOf(siblings, a, 'None listed in this source.'), 'list') : '') +
       section('Sources', null, sourcesList(), null, 'sources') +
       '</article>' + footer();
-  }
-
-  function paygapLinks(pay) {
-    var ps = pay.paygap || [];
-    if (!ps.length) return '';
-    // The Pay Gap counts salaried staff only, so its totals run lower than the Staff figure here.
-    if (ps.length === 1) return '<a class="xlink" href="' + PAYGAP + ps[0][1] + '">Salaried pay on The Pay Gap</a>';
-    return '<span class="xlink">Salaried pay on The Pay Gap, by payroll group: ' +
-      ps.map(function (p) { return '<a href="' + PAYGAP + p[1] + '">' + esc(p[0]) + '</a>'; }).join(', ') + '</span>';
-  }
-  function seeAlso(a) {
-    var x = SEE_ALSO[a.id];
-    return x ? '<p class="see-also">See also <a href="' + x.url + '">' + esc(x.site) + '</a>, a publicworks.nyc project. ' + esc(x.what) + '</p>' : '';
   }
 
   function sourcesList() {

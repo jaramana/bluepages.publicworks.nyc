@@ -55,13 +55,7 @@ window.PAYROLL = {
 6446
 ]
 ],
-"medianSalary": 70156,
-"paygap": [
-[
-"ADMIN FOR CHILDREN'S SVCS",
-"admin-for-children-s-svcs"
-]
-]
+"medianSalary": 70156
 },
 "office-of-administrative-trials-and-hearings": {
 "codes": [
@@ -118,13 +112,7 @@ window.PAYROLL = {
 672
 ]
 ],
-"medianSalary": 91678,
-"paygap": [
-[
-"ADMIN TRIALS AND HEARINGS",
-"admin-trials-and-hearings"
-]
-]
+"medianSalary": 91678
 },
 "board-of-correction": {
 "codes": [
@@ -182,8 +170,7 @@ window.PAYROLL = {
 27
 ]
 ],
-"medianSalary": null,
-"paygap": []
+"medianSalary": null
 },
 "board-of-elections": {
 "codes": [
@@ -240,13 +227,7 @@ window.PAYROLL = {
 930
 ]
 ],
-"medianSalary": 58796,
-"paygap": [
-[
-"BOARD OF ELECTION",
-"board-of-election"
-]
-]
+"medianSalary": 58796
 },
 "office-of-the-borough-president-of-the-bronx": {
 "codes": [
@@ -303,13 +284,7 @@ window.PAYROLL = {
 57
 ]
 ],
-"medianSalary": 85698,
-"paygap": [
-[
-"BOROUGH PRESIDENT-BRONX",
-"borough-president-bronx"
-]
-]
+"medianSalary": 85698
 },
 "office-of-the-borough-president-of-brooklyn": {
 "codes": [
@@ -366,13 +341,7 @@ window.PAYROLL = {
 66
 ]
 ],
-"medianSalary": 83762,
-"paygap": [
-[
-"BOROUGH PRESIDENT-BROOKLYN",
-"borough-president-brooklyn"
-]
-]
+"medianSalary": 83762
 },
 "office-of-the-borough-president-of-queens": {
 "codes": [
@@ -429,13 +398,7 @@ window.PAYROLL = {
 65
 ]
 ],
-"medianSalary": 82064,
-"paygap": [
-[
-"BOROUGH PRESIDENT-QUEENS",
-"borough-president-queens"
-]
-]
+"medianSalary": 82064
 },
 "office-of-the-borough-president-of-staten-island": {
 "codes": [
@@ -492,13 +455,7 @@ window.PAYROLL = {
 37
 ]
 ],
-"medianSalary": null,
-"paygap": [
-[
-"BOROUGH PRESIDENT-STATEN IS",
-"borough-president-staten-is"
-]
-]
+"medianSalary": null
 },
 "bronx-district-attorney-s-office": {
 "codes": [
@@ -556,17 +513,7 @@ window.PAYROLL = {
 1265
 ]
 ],
-"medianSalary": null,
-"paygap": [
-[
-"BRONX DA",
-"bronx-da"
-],
-[
-"BRONX DISTRICT ATTORNEY",
-"bronx-district-attorney"
-]
-]
+"medianSalary": null
 },
 "business-integrity-commission": {
 "codes": [
@@ -623,13 +570,7 @@ window.PAYROLL = {
 64
 ]
 ],
-"medianSalary": 80362,
-"paygap": [
-[
-"BUSINESS INTEGRITY COMMISSION",
-"business-integrity-commission"
-]
-]
+"medianSalary": 80362
 },
 "campaign-finance-board": {
 "codes": [
@@ -686,13 +627,7 @@ window.PAYROLL = {
 175
 ]
 ],
-"medianSalary": 90108,
-"paygap": [
-[
-"CAMPAIGN FINANCE BOARD",
-"campaign-finance-board"
-]
-]
+"medianSalary": 90108
 },
 "office-of-the-city-clerk": {
 "codes": [
@@ -749,13 +684,7 @@ window.PAYROLL = {
 55
 ]
 ],
-"medianSalary": 57530,
-"paygap": [
-[
-"CITY CLERK",
-"city-clerk"
-]
-]
+"medianSalary": 57530
 },
 "new-york-city-council": {
 "codes": [
@@ -812,13 +741,7 @@ window.PAYROLL = {
 877
 ]
 ],
-"medianSalary": 86757,
-"paygap": [
-[
-"CITY COUNCIL",
-"city-council"
-]
-]
+"medianSalary": 86757
 },
 "civil-service-commission": {
 "codes": [
@@ -875,8 +798,7 @@ window.PAYROLL = {
 11
 ]
 ],
-"medianSalary": null,
-"paygap": []
+"medianSalary": null
 },
 "civilian-complaint-review-board": {
 "codes": [
@@ -933,13 +855,7 @@ window.PAYROLL = {
 243
 ]
 ],
-"medianSalary": 80469,
-"paygap": [
-[
-"CIVILIAN COMPLAINT REVIEW BD",
-"civilian-complaint-review-bd"
-]
-]
+"medianSalary": 80469
 },
 "commission-on-racial-equity": {
 "codes": [
@@ -956,8 +872,7 @@ window.PAYROLL = {
 21
 ]
 ],
-"medianSalary": null,
-"paygap": []
+"medianSalary": null
 },
 "conflicts-of-interest-board": {
 "codes": [
@@ -1014,8 +929,7 @@ window.PAYROLL = {
 21
 ]
 ],
-"medianSalary": null,
-"paygap": []
+"medianSalary": null
 },
 "department-of-consumer-and-worker-protection": {
 "codes": [
@@ -1073,17 +987,7 @@ window.PAYROLL = {
 404
 ]
 ],
-"medianSalary": null,
-"paygap": [
-[
-"CONSUMER AFFAIRS",
-"consumer-affairs"
-],
-[
-"CONSUMER AND WORKER PROTECTION",
-"consumer-and-worker-protection"
-]
-]
+"medianSalary": null
 },
 "department-of-cultural-affairs": {
 "codes": [
@@ -1140,13 +1044,7 @@ window.PAYROLL = {
 69
 ]
 ],
-"medianSalary": 86306,
-"paygap": [
-[
-"CULTURAL AFFAIRS",
-"cultural-affairs"
-]
-]
+"medianSalary": 86306
 },
 "department-for-the-aging": {
 "codes": [
@@ -1203,13 +1101,7 @@ window.PAYROLL = {
 331
 ]
 ],
-"medianSalary": 89095,
-"paygap": [
-[
-"DEPARTMENT FOR THE AGING",
-"department-for-the-aging"
-]
-]
+"medianSalary": 89095
 },
 "department-of-buildings": {
 "codes": [
@@ -1266,13 +1158,7 @@ window.PAYROLL = {
 1599
 ]
 ],
-"medianSalary": 81154,
-"paygap": [
-[
-"DEPARTMENT OF BUILDINGS",
-"department-of-buildings"
-]
-]
+"medianSalary": 81154
 },
 "department-of-small-business-services": {
 "codes": [
@@ -1329,13 +1215,7 @@ window.PAYROLL = {
 314
 ]
 ],
-"medianSalary": 90395,
-"paygap": [
-[
-"DEPARTMENT OF BUSINESS SERV.",
-"department-of-business-serv"
-]
-]
+"medianSalary": 90395
 },
 "department-of-city-planning": {
 "codes": [
@@ -1392,13 +1272,7 @@ window.PAYROLL = {
 334
 ]
 ],
-"medianSalary": 96638,
-"paygap": [
-[
-"DEPARTMENT OF CITY PLANNING",
-"department-of-city-planning"
-]
-]
+"medianSalary": 96638
 },
 "department-of-correction": {
 "codes": [
@@ -1455,13 +1329,7 @@ window.PAYROLL = {
 7200
 ]
 ],
-"medianSalary": 105146,
-"paygap": [
-[
-"DEPARTMENT OF CORRECTION",
-"department-of-correction"
-]
-]
+"medianSalary": 105146
 },
 "new-york-city-public-schools": {
 "codes": [
@@ -1524,21 +1392,7 @@ window.PAYROLL = {
 267669
 ]
 ],
-"medianSalary": null,
-"paygap": [
-[
-"DEPARTMENT OF EDUCATION ADMIN",
-"department-of-education-admin"
-],
-[
-"DEPT OF ED PARA PROFESSIONALS",
-"dept-of-ed-para-professionals"
-],
-[
-"DEPT OF ED PEDAGOGICAL",
-"dept-of-ed-pedagogical"
-]
-]
+"medianSalary": null
 },
 "department-of-finance": {
 "codes": [
@@ -1595,13 +1449,7 @@ window.PAYROLL = {
 1816
 ]
 ],
-"medianSalary": 87516,
-"paygap": [
-[
-"DEPARTMENT OF FINANCE",
-"department-of-finance"
-]
-]
+"medianSalary": 87516
 },
 "department-of-investigation": {
 "codes": [
@@ -1658,13 +1506,7 @@ window.PAYROLL = {
 256
 ]
 ],
-"medianSalary": 97616,
-"paygap": [
-[
-"DEPARTMENT OF INVESTIGATION",
-"department-of-investigation"
-]
-]
+"medianSalary": 97616
 },
 "department-of-probation": {
 "codes": [
@@ -1721,13 +1563,7 @@ window.PAYROLL = {
 866
 ]
 ],
-"medianSalary": 70046,
-"paygap": [
-[
-"DEPARTMENT OF PROBATION",
-"department-of-probation"
-]
-]
+"medianSalary": 70046
 },
 "new-york-city-department-of-sanitation": {
 "codes": [
@@ -1784,13 +1620,7 @@ window.PAYROLL = {
 9836
 ]
 ],
-"medianSalary": 92093,
-"paygap": [
-[
-"DEPARTMENT OF SANITATION",
-"department-of-sanitation"
-]
-]
+"medianSalary": 92093
 },
 "new-york-city-department-of-transportation": {
 "codes": [
@@ -1847,13 +1677,7 @@ window.PAYROLL = {
 5915
 ]
 ],
-"medianSalary": 79351,
-"paygap": [
-[
-"DEPARTMENT OF TRANSPORTATION",
-"department-of-transportation"
-]
-]
+"medianSalary": 79351
 },
 "department-of-citywide-administrative-services": {
 "codes": [
@@ -1910,13 +1734,7 @@ window.PAYROLL = {
 2117
 ]
 ],
-"medianSalary": 72272,
-"paygap": [
-[
-"DEPT OF CITYWIDE ADMIN SVCS",
-"dept-of-citywide-admin-svcs"
-]
-]
+"medianSalary": 72272
 },
 "department-of-environmental-protection": {
 "codes": [
@@ -1973,13 +1791,7 @@ window.PAYROLL = {
 5767
 ]
 ],
-"medianSalary": 85995,
-"paygap": [
-[
-"DEPT OF ENVIRONMENT PROTECTION",
-"dept-of-environment-protection"
-]
-]
+"medianSalary": 85995
 },
 "department-of-health-and-mental-hygiene": {
 "codes": [
@@ -2036,13 +1848,7 @@ window.PAYROLL = {
 6374
 ]
 ],
-"medianSalary": 85447,
-"paygap": [
-[
-"DEPT OF HEALTH/MENTAL HYGIENE",
-"dept-of-health-mental-hygiene"
-]
-]
+"medianSalary": 85447
 },
 "office-of-technology-and-innovation": {
 "codes": [
@@ -2100,17 +1906,7 @@ window.PAYROLL = {
 1529
 ]
 ],
-"medianSalary": null,
-"paygap": [
-[
-"DEPT OF INFO TECH & TELECOMM",
-"dept-of-info-tech-and-telecomm"
-],
-[
-"TECHNOLOGY & INNOVATION",
-"technology-and-innovation"
-]
-]
+"medianSalary": null
 },
 "department-of-parks-and-recreation": {
 "codes": [
@@ -2167,13 +1963,7 @@ window.PAYROLL = {
 8525
 ]
 ],
-"medianSalary": 72298,
-"paygap": [
-[
-"DEPT OF PARKS & RECREATION",
-"dept-of-parks-and-recreation"
-]
-]
+"medianSalary": 72298
 },
 "department-of-records-and-information-services": {
 "codes": [
@@ -2230,13 +2020,7 @@ window.PAYROLL = {
 61
 ]
 ],
-"medianSalary": 82173,
-"paygap": [
-[
-"DEPT OF RECORDS & INFO SERVICE",
-"dept-of-records-and-info-service"
-]
-]
+"medianSalary": 82173
 },
 "department-of-youth-and-community-development": {
 "codes": [
@@ -2293,13 +2077,7 @@ window.PAYROLL = {
 620
 ]
 ],
-"medianSalary": 95581,
-"paygap": [
-[
-"DEPT OF YOUTH & COMM DEV SRVS",
-"dept-of-youth-and-comm-dev-srvs"
-]
-]
+"medianSalary": 95581
 },
 "department-of-design-and-construction": {
 "codes": [
@@ -2356,13 +2134,7 @@ window.PAYROLL = {
 1148
 ]
 ],
-"medianSalary": 99810,
-"paygap": [
-[
-"DEPT. OF DESIGN & CONSTRUCTION",
-"dept-of-design-and-construction"
-]
-]
+"medianSalary": 99810
 },
 "department-of-homeless-services": {
 "codes": [
@@ -2419,13 +2191,7 @@ window.PAYROLL = {
 1725
 ]
 ],
-"medianSalary": 72298,
-"paygap": [
-[
-"DEPT. OF HOMELESS SERVICES",
-"dept-of-homeless-services"
-]
-]
+"medianSalary": 72298
 },
 "brooklyn-district-attorney-s-office": {
 "codes": [
@@ -2483,17 +2249,7 @@ window.PAYROLL = {
 1301
 ]
 ],
-"medianSalary": null,
-"paygap": [
-[
-"DISTRICT ATTORNEY KINGS COUNTY",
-"district-attorney-kings-county"
-],
-[
-"KINGS DA",
-"kings-da"
-]
-]
+"medianSalary": null
 },
 "queens-district-attorney-s-office": {
 "codes": [
@@ -2551,17 +2307,7 @@ window.PAYROLL = {
 880
 ]
 ],
-"medianSalary": null,
-"paygap": [
-[
-"DISTRICT ATTORNEY QNS COUNTY",
-"district-attorney-qns-county"
-],
-[
-"QUEENS DA",
-"queens-da"
-]
-]
+"medianSalary": null
 },
 "staten-island-district-attorney-s-office": {
 "codes": [
@@ -2619,17 +2365,7 @@ window.PAYROLL = {
 232
 ]
 ],
-"medianSalary": null,
-"paygap": [
-[
-"DISTRICT ATTORNEY RICHMOND COU",
-"district-attorney-richmond-cou"
-],
-[
-"RICHMOND DA",
-"richmond-da"
-]
-]
+"medianSalary": null
 },
 "manhattan-district-attorney-s-office": {
 "codes": [
@@ -2687,17 +2423,7 @@ window.PAYROLL = {
 1707
 ]
 ],
-"medianSalary": null,
-"paygap": [
-[
-"DISTRICT ATTORNEY-MANHATTAN",
-"district-attorney-manhattan"
-],
-[
-"MANHATTAN DA",
-"manhattan-da"
-]
-]
+"medianSalary": null
 },
 "office-of-the-special-narcotics-prosecutor": {
 "codes": [
@@ -2755,17 +2481,7 @@ window.PAYROLL = {
 210
 ]
 ],
-"medianSalary": null,
-"paygap": [
-[
-"DISTRICT ATTORNEY-SPECIAL NARC",
-"district-attorney-special-narc"
-],
-[
-"SPEC NARCS-DA",
-"spec-narcs-da"
-]
-]
+"medianSalary": null
 },
 "new-york-city-districting-commission": {
 "codes": [
@@ -2782,8 +2498,7 @@ window.PAYROLL = {
 2
 ]
 ],
-"medianSalary": null,
-"paygap": []
+"medianSalary": null
 },
 "equal-employment-practices-commission": {
 "codes": [
@@ -2840,8 +2555,7 @@ window.PAYROLL = {
 14
 ]
 ],
-"medianSalary": null,
-"paygap": []
+"medianSalary": null
 },
 "financial-information-services-agency": {
 "codes": [
@@ -2898,13 +2612,7 @@ window.PAYROLL = {
 396
 ]
 ],
-"medianSalary": 143540,
-"paygap": [
-[
-"FINANCIAL INFO SVCS AGENCY",
-"financial-info-svcs-agency"
-]
-]
+"medianSalary": 143540
 },
 "fire-department-of-the-city-of-new-york": {
 "codes": [
@@ -2961,13 +2669,7 @@ window.PAYROLL = {
 17390
 ]
 ],
-"medianSalary": 109352,
-"paygap": [
-[
-"FIRE DEPARTMENT",
-"fire-department"
-]
-]
+"medianSalary": 109352
 },
 "department-of-housing-preservation-and-development": {
 "codes": [
@@ -3024,13 +2726,7 @@ window.PAYROLL = {
 2392
 ]
 ],
-"medianSalary": 78082,
-"paygap": [
-[
-"HOUSING PRESERVATION & DVLPMNT",
-"housing-preservation-and-dvlpmnt"
-]
-]
+"medianSalary": 78082
 },
 "department-of-social-services": {
 "codes": [
@@ -3087,13 +2783,7 @@ window.PAYROLL = {
 10733
 ]
 ],
-"medianSalary": 61376,
-"paygap": [
-[
-"HRA/DEPT OF SOCIAL SERVICES",
-"hra-dept-of-social-services"
-]
-]
+"medianSalary": 61376
 },
 "city-commission-on-human-rights": {
 "codes": [
@@ -3150,13 +2840,7 @@ window.PAYROLL = {
 105
 ]
 ],
-"medianSalary": 81386,
-"paygap": [
-[
-"HUMAN RIGHTS COMMISSION",
-"human-rights-commission"
-]
-]
+"medianSalary": 81386
 },
 "independent-budget-office": {
 "codes": [
@@ -3213,13 +2897,7 @@ window.PAYROLL = {
 65
 ]
 ],
-"medianSalary": 96511,
-"paygap": [
-[
-"INDEPENDENT BUDGET OFFICE",
-"independent-budget-office"
-]
-]
+"medianSalary": 96511
 },
 "landmarks-preservation-commission": {
 "codes": [
@@ -3276,13 +2954,7 @@ window.PAYROLL = {
 70
 ]
 ],
-"medianSalary": 82390,
-"paygap": [
-[
-"LANDMARKS PRESERVATION COMM",
-"landmarks-preservation-comm"
-]
-]
+"medianSalary": 82390
 },
 "new-york-city-law-department": {
 "codes": [
@@ -3339,13 +3011,7 @@ window.PAYROLL = {
 1495
 ]
 ],
-"medianSalary": 101030,
-"paygap": [
-[
-"LAW DEPARTMENT",
-"law-department"
-]
-]
+"medianSalary": 101030
 },
 "mayor-s-office-of-contract-services": {
 "codes": [
@@ -3390,13 +3056,7 @@ window.PAYROLL = {
 188
 ]
 ],
-"medianSalary": 102570,
-"paygap": [
-[
-"MAYORS OFFICE OF CONTRACT SVCS",
-"mayors-office-of-contract-svcs"
-]
-]
+"medianSalary": 102570
 },
 "new-york-city-municipal-water-finance-authority": {
 "codes": [
@@ -3453,8 +3113,7 @@ window.PAYROLL = {
 11
 ]
 ],
-"medianSalary": null,
-"paygap": []
+"medianSalary": null
 },
 "department-of-veterans-services": {
 "codes": [
@@ -3499,13 +3158,7 @@ window.PAYROLL = {
 36
 ]
 ],
-"medianSalary": 85550,
-"paygap": [
-[
-"NYC DEPT OF VETERANS' SERVICES",
-"nyc-dept-of-veterans-services"
-]
-]
+"medianSalary": 85550
 },
 "new-york-city-employee-retirement-system": {
 "codes": [
@@ -3562,13 +3215,7 @@ window.PAYROLL = {
 501
 ]
 ],
-"medianSalary": 76809,
-"paygap": [
-[
-"NYC EMPLOYEES RETIREMENT SYS",
-"nyc-employees-retirement-sys"
-]
-]
+"medianSalary": 76809
 },
 "fire-department-pension-fund-and-related-funds": {
 "codes": [
@@ -3609,13 +3256,7 @@ window.PAYROLL = {
 49
 ]
 ],
-"medianSalary": 86240,
-"paygap": [
-[
-"NYC FIRE PENSION FUND",
-"nyc-fire-pension-fund"
-]
-]
+"medianSalary": 86240
 },
 "new-york-city-housing-authority": {
 "codes": [
@@ -3672,13 +3313,7 @@ window.PAYROLL = {
 11994
 ]
 ],
-"medianSalary": 54200,
-"paygap": [
-[
-"NYC HOUSING AUTHORITY",
-"nyc-housing-authority"
-]
-]
+"medianSalary": 54200
 },
 "new-york-city-police-pension-fund": {
 "codes": [
@@ -3735,13 +3370,7 @@ window.PAYROLL = {
 141
 ]
 ],
-"medianSalary": 78180,
-"paygap": [
-[
-"NYC POLICE PENSION FUND",
-"nyc-police-pension-fund"
-]
-]
+"medianSalary": 78180
 },
 "office-of-payroll-administration": {
 "codes": [
@@ -3798,13 +3427,7 @@ window.PAYROLL = {
 132
 ]
 ],
-"medianSalary": 100684,
-"paygap": [
-[
-"OFF OF PAYROLL ADMINISTRATION",
-"off-of-payroll-administration"
-]
-]
+"medianSalary": 100684
 },
 "office-of-collective-bargaining": {
 "codes": [
@@ -3861,8 +3484,7 @@ window.PAYROLL = {
 15
 ]
 ],
-"medianSalary": null,
-"paygap": []
+"medianSalary": null
 },
 "mayor-s-office-of-criminal-justice": {
 "codes": [
@@ -3879,13 +3501,7 @@ window.PAYROLL = {
 96
 ]
 ],
-"medianSalary": 121916,
-"paygap": [
-[
-"OFFICE OF CRIMINAL JUSTICE",
-"office-of-criminal-justice"
-]
-]
+"medianSalary": 121916
 },
 "new-york-city-emergency-management": {
 "codes": [
@@ -3942,13 +3558,7 @@ window.PAYROLL = {
 223
 ]
 ],
-"medianSalary": 90419,
-"paygap": [
-[
-"OFFICE OF EMERGENCY MANAGEMENT",
-"office-of-emergency-management"
-]
-]
+"medianSalary": 90419
 },
 "office-of-labor-relations": {
 "codes": [
@@ -4005,13 +3615,7 @@ window.PAYROLL = {
 164
 ]
 ],
-"medianSalary": 78977,
-"paygap": [
-[
-"OFFICE OF LABOR RELATIONS",
-"office-of-labor-relations"
-]
-]
+"medianSalary": 78977
 },
 "mayor-s-office-of-management-and-budget": {
 "codes": [
@@ -4068,13 +3672,7 @@ window.PAYROLL = {
 457
 ]
 ],
-"medianSalary": 101434,
-"paygap": [
-[
-"OFFICE OF MANAGEMENT & BUDGET",
-"office-of-management-and-budget"
-]
-]
+"medianSalary": 101434
 },
 "mayor-s-office-of-equity-and-racial-justice": {
 "codes": [
@@ -4091,8 +3689,7 @@ window.PAYROLL = {
 28
 ]
 ],
-"medianSalary": null,
-"paygap": []
+"medianSalary": null
 },
 "new-york-city-office-of-the-actuary": {
 "codes": [
@@ -4149,13 +3746,7 @@ window.PAYROLL = {
 38
 ]
 ],
-"medianSalary": 116716,
-"paygap": [
-[
-"OFFICE OF THE ACTUARY",
-"office-of-the-actuary"
-]
-]
+"medianSalary": 116716
 },
 "office-of-the-new-york-city-comptroller": {
 "codes": [
@@ -4212,13 +3803,7 @@ window.PAYROLL = {
 740
 ]
 ],
-"medianSalary": 92144,
-"paygap": [
-[
-"OFFICE OF THE COMPTROLLER",
-"office-of-the-comptroller"
-]
-]
+"medianSalary": 92144
 },
 "office-of-the-mayor": {
 "codes": [
@@ -4275,13 +3860,7 @@ window.PAYROLL = {
 359
 ]
 ],
-"medianSalary": 122400,
-"paygap": [
-[
-"OFFICE OF THE MAYOR",
-"office-of-the-mayor"
-]
-]
+"medianSalary": 122400
 },
 "new-york-city-police-department": {
 "codes": [
@@ -4338,13 +3917,7 @@ window.PAYROLL = {
 47480
 ]
 ],
-"medianSalary": 109352,
-"paygap": [
-[
-"POLICE DEPARTMENT",
-"police-department"
-]
-]
+"medianSalary": 109352
 },
 "office-of-the-borough-president-of-manhattan": {
 "codes": [
@@ -4401,13 +3974,7 @@ window.PAYROLL = {
 50
 ]
 ],
-"medianSalary": 85078,
-"paygap": [
-[
-"PRESIDENT BOROUGH OF MANHATTAN",
-"president-borough-of-manhattan"
-]
-]
+"medianSalary": 85078
 },
 "bronx-county-public-administrator": {
 "codes": [
@@ -4464,8 +4031,7 @@ window.PAYROLL = {
 9
 ]
 ],
-"medianSalary": null,
-"paygap": []
+"medianSalary": null
 },
 "kings-county-public-administrator": {
 "codes": [
@@ -4522,8 +4088,7 @@ window.PAYROLL = {
 15
 ]
 ],
-"medianSalary": null,
-"paygap": []
+"medianSalary": null
 },
 "new-york-county-public-administrator": {
 "codes": [
@@ -4580,8 +4145,7 @@ window.PAYROLL = {
 12
 ]
 ],
-"medianSalary": null,
-"paygap": []
+"medianSalary": null
 },
 "public-administrator-of-queens-county": {
 "codes": [
@@ -4638,8 +4202,7 @@ window.PAYROLL = {
 7
 ]
 ],
-"medianSalary": null,
-"paygap": []
+"medianSalary": null
 },
 "richmond-county-public-administrator": {
 "codes": [
@@ -4696,8 +4259,7 @@ window.PAYROLL = {
 5
 ]
 ],
-"medianSalary": null,
-"paygap": []
+"medianSalary": null
 },
 "office-of-the-public-advocate": {
 "codes": [
@@ -4754,13 +4316,7 @@ window.PAYROLL = {
 58
 ]
 ],
-"medianSalary": 74280,
-"paygap": [
-[
-"PUBLIC ADVOCATE",
-"public-advocate"
-]
-]
+"medianSalary": 74280
 },
 "new-york-city-tax-commission": {
 "codes": [
@@ -4817,13 +4373,7 @@ window.PAYROLL = {
 45
 ]
 ],
-"medianSalary": 120996,
-"paygap": [
-[
-"TAX COMMISSION",
-"tax-commission"
-]
-]
+"medianSalary": 120996
 },
 "new-york-city-taxi-and-limousine-commission": {
 "codes": [
@@ -4880,13 +4430,7 @@ window.PAYROLL = {
 426
 ]
 ],
-"medianSalary": 72200,
-"paygap": [
-[
-"TAXI & LIMOUSINE COMMISSION",
-"taxi-and-limousine-commission"
-]
-]
+"medianSalary": 72200
 },
 "teachers-retirement-system-of-city-of-new-york": {
 "codes": [
@@ -4943,12 +4487,6 @@ window.PAYROLL = {
 400
 ]
 ],
-"medianSalary": 89512,
-"paygap": [
-[
-"TEACHERS RETIREMENT SYSTEM",
-"teachers-retirement-system"
-]
-]
+"medianSalary": 89512
 }
 };
