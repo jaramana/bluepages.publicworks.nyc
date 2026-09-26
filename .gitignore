@@ -1,0 +1,9 @@
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+
+# Working notes, kept local
+HANDOFF.md
+working-with-Claude-brief.md
+de-ai.md

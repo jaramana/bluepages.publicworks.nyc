@@ -1,0 +1,905 @@
+[
+ [
+  "Procurement Policy Board",
+  "Advisory or Regulatory Organization",
+  "https://www.nyc.gov/site/mocs/regulations/ppb.page",
+  "https://www.nyc.gov/assets/mocs/images/content/header/logo.svg",
+  "ok"
+ ],
+ [
+  "New York City Department of Sanitation",
+  "Mayoral Agency",
+  "https://www.nyc.gov/site/dsny/index.page",
+  "https://www.nyc.gov/assets/dsny/images/content/header/logo.svg",
+  "ok"
+ ],
+ [
+  "Mayor's Office of Housing Recovery Operations",
+  "Mayoral Office",
+  "https://www1.nyc.gov/site/housingrecovery/index.page",
+  "https://www1.nyc.gov/assets/housingrecovery/images/content/header/housingrecovery_logo.svg",
+  "ok"
+ ],
+ [
+  "Fire Department of the City of New York",
+  "Mayoral Agency",
+  "https://www.nyc.gov/site/fdny/index.page",
+  "https://www.nyc.gov/assets/fdny/images/content/header/logo.png",
+  "ok"
+ ],
+ [
+  "Workforce Development Council",
+  "Advisory or Regulatory Organization",
+  "https://www.nyc.gov/site/wkdev/workforce-board/about-the-council.page",
+  null,
+  "ERR"
+ ],
+ [
+  "Richmond County Public Administrator",
+  "State Government Agency",
+  "https://www.nyc.gov/site/rcpa/index.page",
+  "https://www.nyc.gov/assets/rcpa/images/content/header/logo.png",
+  "ok"
+ ],
+ [
+  "Sales Tax Asset Receivable Corporation",
+  "Public Benefit or Development Organization",
+  "https://www.nyc.gov/site/starcorp/index.page",
+  null,
+  "ERR"
+ ],
+ [
+  "Mayor's Office of Operations",
+  "Mayoral Office",
+  "https://www.nyc.gov/site/operations/index.page",
+  "https://www.nyc.gov/assets/operations/images/content/header/logo.png",
+  "ok"
+ ],
+ [
+  "Human Resources Administration",
+  "Division",
+  "https://www.nyc.gov/site/hra/index.page",
+  "https://www.nyc.gov/assets/hra/images/content/header/hra_logo.svg",
+  "ok"
+ ],
+ [
+  "Department of Records and Information Services",
+  "Mayoral Agency",
+  "https://www.nyc.gov/site/records/index.page",
+  "https://www.nyc.gov/assets/records/images/content/header/records_logo.svg",
+  "ok"
+ ],
+ [
+  "Community Action Board at the NYC Department of Youth and Community Development",
+  "Advisory or Regulatory Organization",
+  "https://www1.nyc.gov/site/dycd/involved/boards-and-councils/community-action-board.page",
+  "https://www1.nyc.gov/assets/dycd/images/content/header/DYCD_Logo_317x80.svg",
+  "ok"
+ ],
+ [
+  "Landmarks Preservation Commission",
+  "Advisory or Regulatory Organization",
+  "https://www1.nyc.gov/site/lpc/index.page",
+  "https://www1.nyc.gov/assets/lpc/images/content/header/logo.png",
+  "ok"
+ ],
+ [
+  "Financial Information Services Agency",
+  "Advisory or Regulatory Organization",
+  "https://www.nyc.gov/site/opa/about/opa-history.page",
+  "https://www.nyc.gov/assets/opa/images/content/header/logo.png",
+  "ok"
+ ],
+ [
+  "Office of Administrative Trials and Hearings",
+  "Mayoral Agency",
+  "https://www.nyc.gov/site/oath/index.page",
+  "https://www.nyc.gov/assets/oath/images/content/header/logo.png",
+  "ok"
+ ],
+ [
+  "New York City Municipal Water Finance Authority",
+  "Public Benefit or Development Organization",
+  "https://www.nyc.gov/site/nyw/index.page",
+  "https://www.nyc.gov/assets/nyw/images/content/header/logo.png",
+  "ok"
+ ],
+ [
+  "Tobacco Settlement Asset Securitization Corporation",
+  "Public Benefit or Development Organization",
+  "https://www1.nyc.gov/site/tsasc/index.page",
+  "https://www1.nyc.gov/assets/tsasc/images/content/header/logo.png",
+  "ok"
+ ],
+ [
+  "Commission to Combat Police Corruption",
+  "Advisory or Regulatory Organization",
+  "https://www.nyc.gov/site/ccpc/index.page",
+  "https://www.nyc.gov/assets/ccpc/images/content/header/logo.png",
+  "ok"
+ ],
+ [
+  "Office of Intergovernmental Affairs",
+  "Mayoral Office",
+  "https://www.nyc.gov/site/intergovernmental/index.page",
+  "https://www.nyc.gov/assets/intergovernmental/images/content/header/logo.png",
+  "ok"
+ ],
+ [
+  "New York City Law Department",
+  "Mayoral Agency",
+  "https://www.nyc.gov/site/law/index.page",
+  "https://www.nyc.gov/assets/law/images/content/header/logo.png",
+  "ok"
+ ],
+ [
+  "Mayor's Office for People with Disabilities",
+  "Mayoral Office",
+  "https://www.nyc.gov/site/mopd/index.page",
+  "https://www.nyc.gov/assets/mopd/images/content/header/mopd_logo.svg",
+  "ok"
+ ],
+ [
+  "New York City Loft Board",
+  "Advisory or Regulatory Organization",
+  "https://www.nyc.gov/site/loftboard/index.page",
+  "https://www.nyc.gov/assets/loftboard/images/content/header/loft-board-logo.svg",
+  "ok"
+ ],
+ [
+  "Mayor's Office of Faith-Based and Community Partnerships",
+  "Mayoral Office",
+  "https://www.nyc.gov/site/cfcp/index.page",
+  null,
+  "ERR"
+ ],
+ [
+  "Get Stuff Built Advisory Board",
+  "Advisory or Regulatory Organization",
+  "https://www.nyc.gov/site/getstuffbuilt/initiatives/get-stuff-built.page",
+  null,
+  "ERR"
+ ],
+ [
+  "New York City Housing Authority Board",
+  "Advisory or Regulatory Organization",
+  "https://www1.nyc.gov/site/nycha/about/nycha-board.page",
+  "https://www1.nyc.gov/assets/nycha/images/content/header/logo.png",
+  "ok"
+ ],
+ [
+  "Nonprofit Advisory Council",
+  "Advisory or Regulatory Organization",
+  "https://www.nyc.gov/site/nonprofits/about/advisory-council.page",
+  null,
+  "ok"
+ ],
+ [
+  "Department of City Planning",
+  "Mayoral Agency",
+  "https://www.nyc.gov/site/planning/index.page",
+  null,
+  "ok"
+ ],
+ [
+  "Civic Engagement Commission",
+  "Division",
+  "https://www.nyc.gov/site/civicengagement/index.page",
+  "https://www.nyc.gov/assets/civicengagement/images/content/header/cecLogo.png",
+  "ok"
+ ],
+ [
+  "Department of Veterans' Services",
+  "Mayoral Agency",
+  "https://www.nyc.gov/site/veterans/index.page",
+  "https://www.nyc.gov/assets/veterans/images/content/header/logo.png",
+  "ok"
+ ],
+ [
+  "Board of Health",
+  "Advisory or Regulatory Organization",
+  "https://www1.nyc.gov/site/doh/about/about-doh/board-of-health.page",
+  "https://www1.nyc.gov/assets/doh/images/content/header/logo.png",
+  "ok"
+ ],
+ [
+  "Charter Revision Commission",
+  "Advisory or Regulatory Organization",
+  "https://www.nyc.gov/site/charter/index.page",
+  "https://www.nyc.gov/assets/charter/images/content/header/COGE-LOGO.png",
+  "ok"
+ ],
+ [
+  "Mayor's Office of Special Enforcement",
+  "Mayoral Office",
+  "https://www.nyc.gov/site/specialenforcement/index.page",
+  "https://www.nyc.gov/assets/specialenforcement/images/content/header/officeofspecialenforcement_logo_blue2.svg",
+  "ok"
+ ],
+ [
+  "Juvenile Justice Advisory Board",
+  "Advisory or Regulatory Organization",
+  "https://www.nyc.gov/site/acs/about/data-analysis.page",
+  "https://www.nyc.gov/assets/acs/images/content/header/logo.png",
+  "ok"
+ ],
+ [
+  "Center for Innovation through Data Intelligence",
+  "Mayoral Office",
+  "https://www.nyc.gov/site/cidi/index.page",
+  "https://www.nyc.gov/assets/cidi/images/content/header/logo.png",
+  "ok"
+ ],
+ [
+  "City Commission on Human Rights",
+  "Advisory or Regulatory Organization",
+  "https://www.nyc.gov/site/cchr/index.page",
+  "https://www.nyc.gov/assets/cchr/images/content/header/logo.png",
+  "ok"
+ ],
+ [
+  "Mayor's Office of Media and Entertainment",
+  "Mayoral Office",
+  "https://www.nyc.gov/site/mome/index.page",
+  "https://www.nyc.gov/assets/mome/images/content/header/MOME-logo-head.png",
+  "ok"
+ ],
+ [
+  "New York City Office of the Actuary",
+  "Advisory or Regulatory Organization",
+  "https://www.nyc.gov/site/actuary/index.page",
+  "https://www.nyc.gov/assets/actuary/images/content/header/logo.png",
+  "ok"
+ ],
+ [
+  "Mayor's Office of Food Policy",
+  "Mayoral Office",
+  "https://www.nyc.gov/site/foodpolicy/index.page",
+  "https://www.nyc.gov/assets/foodpolicy/images/content/header/logo.png",
+  "ok"
+ ],
+ [
+  "Office Conversion Accelerator",
+  "Mayoral Office",
+  "https://www.nyc.gov/site/officeconversions/index.page",
+  "https://www.nyc.gov/assets/officeconversions/images/content/header/logo.svg",
+  "ok"
+ ],
+ [
+  "Office of Payroll Administration",
+  "Mayoral Agency",
+  "https://www.nyc.gov/site/opa/index.page",
+  "https://www.nyc.gov/assets/opa/images/content/header/logo.png",
+  "ok"
+ ],
+ [
+  "Mayor's Office for Childcare and Early Childhood Education",
+  "Mayoral Office",
+  "https://www.nyc.gov/site/childcare/index.page",
+  "https://www.nyc.gov/assets/childcare/images/content/header/child_care_logo.svg",
+  "ok"
+ ],
+ [
+  "Civil Service Commission",
+  "Advisory or Regulatory Organization",
+  "https://www.nyc.gov/site/csc/index.page",
+  "https://www.nyc.gov/assets/csc/images/content/header/csc-logo-01.png",
+  "ok"
+ ],
+ [
+  "Board of Standards and Appeals",
+  "Advisory or Regulatory Organization",
+  "https://www.nyc.gov/site/bsa/index.page",
+  "https://www.nyc.gov/assets/bsa/images/content/header/logo.svg",
+  "ok"
+ ],
+ [
+  "New York City Emergency Management",
+  "Mayoral Agency",
+  "https://www.nyc.gov/site/em/index.page",
+  "https://www.nyc.gov/assets/em/images/content/header/logo.png",
+  "ok"
+ ],
+ [
+  "Mayor's Office of Equity and Racial Justice",
+  "Mayoral Office",
+  "https://www.nyc.gov/site/equity/index.page",
+  "https://www.nyc.gov/assets/equity/images/content/header/logo.png",
+  "ok"
+ ],
+ [
+  "Mayor's Office of Ethnic and Community Media",
+  "Mayoral Office",
+  "https://www.nyc.gov/site/ethnicmedia/index.page",
+  "https://www.nyc.gov/assets/ethnicmedia/images/content/header/logo-ethnic-media.svg",
+  "ok"
+ ],
+ [
+  "Mayor's Office for Nonprofit Services",
+  "Mayoral Office",
+  "https://www.nyc.gov/site/nonprofits/index.page",
+  null,
+  "ok"
+ ],
+ [
+  "Taskforce on Racial Inclusion and Equity",
+  "Advisory or Regulatory Organization",
+  "https://www.nyc.gov/site/trie/index.page",
+  null,
+  "ERR"
+ ],
+ [
+  "New York City Housing Authority",
+  "Public Benefit or Development Organization",
+  "https://www.nyc.gov/site/nycha/index.page",
+  "https://www.nyc.gov/assets/nycha/images/content/header/logo.png",
+  "ok"
+ ],
+ [
+  "Archives, Reference and Research Advisory Board",
+  "Advisory or Regulatory Organization",
+  "https://www.nyc.gov/site/records/about/archives-reference-and-research-advisory-board.page",
+  "https://www.nyc.gov/assets/records/images/content/header/records_logo.svg",
+  "ok"
+ ],
+ [
+  "Mayor's Office of Urban Agriculture",
+  "Division",
+  "https://www1.nyc.gov/site/agriculture/index.page",
+  "https://www1.nyc.gov/assets/agriculture/images/content/header/logo.svg",
+  "ok"
+ ],
+ [
+  "Mayor's Office to Prevent Gun Violence",
+  "Mayoral Office",
+  "https://www1.nyc.gov/site/peacenyc/index.page",
+  "https://www1.nyc.gov/assets/peacenyc/images/content/header/logo.png",
+  "ok"
+ ],
+ [
+  "New York City Districting Commission",
+  "Advisory or Regulatory Organization",
+  "https://www.nyc.gov/site/districting/index.page",
+  "https://www.nyc.gov/assets/districting/images/content/header/logo.svg",
+  "ok"
+ ],
+ [
+  "Mayor's Office of Strategic Partnerships",
+  "Mayoral Office",
+  "https://www.nyc.gov/site/partnerships/index.page",
+  "https://www.nyc.gov/assets/partnerships/images/content/header/logo.svg",
+  "ok"
+ ],
+ [
+  "Mayor's Office of Animal Welfare",
+  "Division",
+  "https://www.nyc.gov/site/animalwelfare/index.page",
+  "https://www.nyc.gov/assets/animalwelfare/images/content/header/animal-welfare-logo.svg",
+  "ok"
+ ],
+ [
+  "New York City Police Department",
+  "Mayoral Agency",
+  "https://www.nyc.gov/site/nypd/index.page",
+  "https://www.nyc.gov/assets/nypd/images/content/header/logo.png",
+  "ok"
+ ],
+ [
+  "Board of Correction",
+  "Advisory or Regulatory Organization",
+  "https://www.nyc.gov/site/boc/index.page",
+  "https://www.nyc.gov/assets/boc/images/content/header/logo.png",
+  "ok"
+ ],
+ [
+  "Department of Housing Preservation and Development",
+  "Mayoral Agency",
+  "https://www.nyc.gov/site/hpd/index.page",
+  "https://www.nyc.gov/assets/hpd/images/content/header/logo.svg",
+  "ok"
+ ],
+ [
+  "HIV/AIDS Services Advisory Board",
+  "Advisory or Regulatory Organization",
+  "https://www1.nyc.gov/site/hra/help/hiv-aids-services.page",
+  "https://www1.nyc.gov/assets/hra/images/content/header/hra_logo.svg",
+  "ok"
+ ],
+ [
+  "Mayor's Fund to Advance New York City",
+  "Nonprofit Organization",
+  "https://www.nyc.gov/site/fund/index.page",
+  "https://www.nyc.gov/assets/fund/images/content/header/Mayors-Fund-Circular.png",
+  "ok"
+ ],
+ [
+  "Senior Advisory Council",
+  "Advisory or Regulatory Organization",
+  "https://www1.nyc.gov/site/dfta/about/advisory-council.page",
+  "https://www1.nyc.gov/assets/dfta/images/content/header/logo.svg",
+  "ok"
+ ],
+ [
+  "Bronx County Public Administrator",
+  "State Government Agency",
+  "https://www.nyc.gov/site/bronxpa/index.page",
+  "https://www.nyc.gov/assets/bronxpa/images/content/header/logo.svg",
+  "ok"
+ ],
+ [
+  "Mayor's Office of Youth Employment",
+  "Mayoral Office",
+  "https://www.nyc.gov/site/youthemployment/index.page",
+  "https://www.nyc.gov/assets/youthemployment/images/content/header/youth-employment-logo.svg",
+  "ok"
+ ],
+ [
+  "Mayor's Office of Immigrant Affairs",
+  "Mayoral Office",
+  "https://www.nyc.gov/site/immigrants/index.page",
+  null,
+  "ok"
+ ],
+ [
+  "Tax Appeals Tribunal",
+  "Advisory or Regulatory Organization",
+  "https://www1.nyc.gov/site/taxappeals/index.page",
+  "https://www1.nyc.gov/assets/taxappeals/images/content/header/logo.svg",
+  "ok"
+ ],
+ [
+  "Department of Correction",
+  "Mayoral Agency",
+  "https://www.nyc.gov/site/doc/index.page",
+  "https://www.nyc.gov/assets/doc/images/content/header/logo.png",
+  "ok"
+ ],
+ [
+  "Department of Design and Construction",
+  "Mayoral Agency",
+  "https://www.nyc.gov/site/ddc/index.page",
+  "https://www.nyc.gov/assets/ddc/images/content/header/logo.png",
+  "ok"
+ ],
+ [
+  "Mayor's Advisory Committee on the Judiciary",
+  "Advisory or Regulatory Organization",
+  "https://www1.nyc.gov/site/macj/index.page",
+  "https://www1.nyc.gov/assets/macj/images/content/header/macj_logo.svg",
+  "ok"
+ ],
+ [
+  "Mayor's Office of Talent and Workforce Development",
+  "Mayoral Office",
+  "https://www.nyc.gov/site/wkdev/index.page",
+  "https://www.nyc.gov/assets/wkdev/images/content/header/logo.png",
+  "ok"
+ ],
+ [
+  "Department of Buildings",
+  "Mayoral Agency",
+  "https://www.nyc.gov/site/buildings/index.page",
+  "https://www.nyc.gov/assets/buildings/images/content/header/logo.png",
+  "ok"
+ ],
+ [
+  "New York City Children's Cabinet",
+  "Mayoral Office",
+  "https://www.nyc.gov/site/childrenscabinet/index.page",
+  null,
+  "ERR"
+ ],
+ [
+  "Community Boards",
+  "Advisory or Regulatory Organization",
+  "https://www.nyc.gov/site/communityboards/index.page",
+  "https://www.nyc.gov/assets/communityboards/images/content/header/communityBoardsLogo.svg",
+  "ok"
+ ],
+ [
+  "Department of Social Services",
+  "Mayoral Agency",
+  "https://www.nyc.gov/site/dss/index.page",
+  "https://www.nyc.gov/assets/dss/images/content/header/logo.png",
+  "ok"
+ ],
+ [
+  "Community Services Board",
+  "Advisory or Regulatory Organization",
+  "https://www.nyc.gov/site/doh/health/health-topics/mh-community-services-board.page",
+  "https://www.nyc.gov/assets/doh/images/content/header/logo.png",
+  "ok"
+ ],
+ [
+  "Equal Employment Practices Commission",
+  "Advisory or Regulatory Organization",
+  "https://www.nyc.gov/site/eepc/index.page",
+  "https://www.nyc.gov/assets/eepc/images/content/header/logo.png",
+  "ok"
+ ],
+ [
+  "Public Design Commission",
+  "Advisory or Regulatory Organization",
+  "https://www.nyc.gov/site/designcommission/index.page",
+  "https://www.nyc.gov/assets/designcommission/images/content/header/logo.png",
+  "ok"
+ ],
+ [
+  "Mayor's Office for Prevention of Hate Crimes",
+  "Mayoral Office",
+  "https://www.nyc.gov/site/stophate/index.page",
+  "https://www.nyc.gov/assets/stophate/images/content/header/logo.svg",
+  "ok"
+ ],
+ [
+  "Administration for Children's Services",
+  "Mayoral Agency",
+  "https://www.nyc.gov/site/acs/index.page",
+  "https://www.nyc.gov/assets/acs/images/content/header/logo.png",
+  "ok"
+ ],
+ [
+  "Veterans Advisory Board",
+  "Advisory or Regulatory Organization",
+  "https://www1.nyc.gov/site/veterans/community/veterans-advisory-board.page",
+  "https://www1.nyc.gov/assets/veterans/images/content/header/logo.png",
+  "ok"
+ ],
+ [
+  "Department of Homeless Services",
+  "Division",
+  "https://www.nyc.gov/site/dhs/index.page",
+  "https://www.nyc.gov/assets/dhs/images/content/header/dhs_logo.svg",
+  "ok"
+ ],
+ [
+  "Civilian Complaint Review Board",
+  "Advisory or Regulatory Organization",
+  "https://www.nyc.gov/site/ccrb/index.page",
+  "https://www.nyc.gov/assets/ccrb/images/content/header/logo.png",
+  "ok"
+ ],
+ [
+  "Mayor's Office of Special Projects and Community Events",
+  "Mayoral Office",
+  "https://www.nyc.gov/site/mospce/index.page",
+  null,
+  "ok"
+ ],
+ [
+  "Mayor's Office to End Domestic and Gender-Based Violence",
+  "Mayoral Office",
+  "https://www.nyc.gov/site/ocdv/index.page",
+  null,
+  "ok"
+ ],
+ [
+  "Youth Board",
+  "Advisory or Regulatory Organization",
+  "https://www.nyc.gov/site/dycd/involved/boards-and-councils/nyc-youth-board.page",
+  "https://www.nyc.gov/assets/dycd/images/content/header/DYCD_Logo_317x80.svg",
+  "ok"
+ ],
+ [
+  "Domestic Violence Fatality Review Committee",
+  "Advisory or Regulatory Organization",
+  "https://www1.nyc.gov/site/ocdv/press-resources/fatality-review-committee.page",
+  "https://www1.nyc.gov/assets/ocdv/images/content/header/logo.png",
+  "ok"
+ ],
+ [
+  "Department of Investigation",
+  "Mayoral Agency",
+  "https://www.nyc.gov/site/doi/index.page",
+  "https://www.nyc.gov/assets/doi/images/content/header/doi2.png",
+  "ok"
+ ],
+ [
+  "Office of Nightlife",
+  "Division",
+  "https://www.nyc.gov/site/sbs/businesses/nightlife.page",
+  "https://www.nyc.gov/assets/sbs/images/content/header/logo.png",
+  "ok"
+ ],
+ [
+  "Kings County Public Administrator",
+  "State Government Agency",
+  "https://www.nyc.gov/site/kcpa/index.page",
+  "https://www.nyc.gov/assets/kcpa/images/content/header/logo.png",
+  "ok"
+ ],
+ [
+  "Mayor's Office of Management and Budget",
+  "Mayoral Office",
+  "https://www.nyc.gov/site/omb/index.page",
+  null,
+  "ok"
+ ],
+ [
+  "Mayor's Office for Economic Opportunity",
+  "Mayoral Office",
+  "https://www.nyc.gov/site/opportunity/index.page",
+  "https://www.nyc.gov/assets/opportunity/images/content/header/logo.svg",
+  "ok"
+ ],
+ [
+  "Department for the Aging",
+  "Mayoral Agency",
+  "https://www.nyc.gov/site/dfta/index.page",
+  "https://www.nyc.gov/assets/dfta/images/content/header/logo.svg",
+  "ok"
+ ],
+ [
+  "Banking Commission",
+  "Advisory or Regulatory Organization",
+  "https://www.nyc.gov/site/finance/about/banking-commission.page",
+  "https://www.nyc.gov/assets/finance/images/content/header/nyc_finance_logo.png",
+  "ok"
+ ],
+ [
+  "Department of Youth and Community Development",
+  "Mayoral Agency",
+  "https://www.nyc.gov/site/dycd/index.page",
+  "https://www.nyc.gov/assets/dycd/images/content/header/DYCD_Logo_317x80.svg",
+  "ok"
+ ],
+ [
+  "Office of the Administrative Justice Coordinator",
+  "Mayoral Office",
+  "https://www.nyc.gov/site/ajc/index.page",
+  "https://www.nyc.gov/assets/ajc/images/content/header/logo.png",
+  "ok"
+ ],
+ [
+  "Department of Probation",
+  "Mayoral Agency",
+  "https://www.nyc.gov/site/probation/index.page",
+  "https://www.nyc.gov/assets/probation/images/content/header/dop_logo_2026.svg",
+  "ok"
+ ],
+ [
+  "Mayor's Office of Environmental Remediation",
+  "Mayoral Office",
+  "https://www.nyc.gov/site/oer/index.page",
+  "https://www.nyc.gov/assets/oer/images/content/header/logo.png",
+  "ok"
+ ],
+ [
+  "Sheriff",
+  "Division",
+  "https://www.nyc.gov/site/finance/sheriff-courts/sheriff.page",
+  "https://www.nyc.gov/assets/finance/images/content/header/nyc_finance_logo.png",
+  "ok"
+ ],
+ [
+  "Mayor's Public Engagement Unit",
+  "Division",
+  "https://www.nyc.gov/site/mayorspeu/index.page",
+  "https://www.nyc.gov/assets/mayorspeu/images/content/header/logo.svg",
+  "ok"
+ ],
+ [
+  "Mayor's Office of Contract Services",
+  "Mayoral Office",
+  "https://www.nyc.gov/site/mocs/index.page",
+  "https://www.nyc.gov/assets/mocs/images/content/header/logo.svg",
+  "ok"
+ ],
+ [
+  "Office of the Inspector General for the NYPD",
+  "Division",
+  "https://www1.nyc.gov/site/doi/offices/oignypd.page",
+  "https://www1.nyc.gov/assets/doi/images/content/header/doi2.png",
+  "ok"
+ ],
+ [
+  "Office of the Public Realm",
+  "Mayoral Office",
+  "https://www.nyc.gov/site/publicrealm/index.page",
+  null,
+  "ERR"
+ ],
+ [
+  "Hudson Yards Infrastructure Corporation",
+  "Public Benefit or Development Organization",
+  "https://www.nyc.gov/site/hyic/index.page",
+  "https://www.nyc.gov/assets/hyic/images/content/header/HYIC-logo.svg",
+  "ok"
+ ],
+ [
+  "Office of Community Hiring",
+  "Division",
+  "https://www.nyc.gov/site/communityhiring/index.page",
+  "https://www.nyc.gov/assets/communityhiring/images/content/header/office-of-community-hiring-logo.svg",
+  "ok"
+ ],
+ [
+  "Business Integrity Commission",
+  "Advisory or Regulatory Organization",
+  "https://www.nyc.gov/site/bic/index.page",
+  "https://www.nyc.gov/assets/bic/images/content/header/logo.png",
+  "ok"
+ ],
+ [
+  "New York County Public Administrator",
+  "State Government Agency",
+  "https://www.nyc.gov/site/nycountypa/index.page",
+  "https://www.nyc.gov/assets/nycountypa/images/content/header/logo.svg",
+  "ok"
+ ],
+ [
+  "Mayor's Office of Environmental Coordination",
+  "Mayoral Office",
+  "https://www.nyc.gov/site/oec/index.page",
+  "https://www.nyc.gov/assets/oec/images/content/header/logo.png",
+  "ok"
+ ],
+ [
+  "New York City Young Men's Initiative",
+  "Mayoral Office",
+  "https://www.nyc.gov/site/ymi/index.page",
+  "https://www.nyc.gov/assets/ymi/images/content/header/YMI_logo.svg",
+  "ok"
+ ],
+ [
+  "New York City Water Board",
+  "Public Benefit or Development Organization",
+  "https://www.nyc.gov/site/nycwaterboard/index.page",
+  "https://www.nyc.gov/assets/nycwaterboard/images/content/header/logo.svg",
+  "ok"
+ ],
+ [
+  "Mayor's Office of Citywide Events Coordination and Management",
+  "Mayoral Office",
+  "https://www.nyc.gov/site/cecm/index.page",
+  "https://www.nyc.gov/assets/cecm/images/content/header/logo.png",
+  "ok"
+ ],
+ [
+  "Department of Consumer and Worker Protection",
+  "Mayoral Agency",
+  "https://www.nyc.gov/site/dca/index.page",
+  "https://www.nyc.gov/assets/dca/images/content/header/dca_logo.png",
+  "ok"
+ ],
+ [
+  "New York City Tax Commission",
+  "Advisory or Regulatory Organization",
+  "https://www1.nyc.gov/site/taxcommission/index.page",
+  "https://www1.nyc.gov/assets/taxcommission/images/content/header/logo.svg",
+  "ok"
+ ],
+ [
+  "Department of Small Business Services",
+  "Mayoral Agency",
+  "https://www.nyc.gov/site/sbs/index.page",
+  "https://www.nyc.gov/assets/sbs/images/content/header/logo.png",
+  "ok"
+ ],
+ [
+  "Environmental Control Board",
+  "Advisory or Regulatory Organization",
+  "https://www.nyc.gov/site/oath/hearings/about-ecb.page",
+  "https://www.nyc.gov/assets/oath/images/content/header/logo.png",
+  "ok"
+ ],
+ [
+  "Cultural Affairs Advisory Commission",
+  "Advisory or Regulatory Organization",
+  "https://www1.nyc.gov/site/dcla/about/advisory-commission.page",
+  "https://www1.nyc.gov/assets/dcla/images/content/header/logo.svg",
+  "ok"
+ ],
+ [
+  "Department of Finance",
+  "Mayoral Agency",
+  "https://www.nyc.gov/site/finance/index.page",
+  "https://www.nyc.gov/assets/finance/images/content/header/nyc_finance_logo.png",
+  "ok"
+ ],
+ [
+  "New York City Taxi and Limousine Commission",
+  "Mayoral Agency",
+  "https://www.nyc.gov/site/tlc/index.page",
+  null,
+  "ok"
+ ],
+ [
+  "Mayor's Committee on City Marshals",
+  "Advisory or Regulatory Organization",
+  "https://www.nyc.gov/site/marshals/index.page",
+  "https://www.nyc.gov/assets/marshals/images/content/header/logo.png",
+  "ok"
+ ],
+ [
+  "Office of Administrative Tax Appeals",
+  "Advisory or Regulatory Organization",
+  "https://www.nyc.gov/site/oata/index.page",
+  "https://www.nyc.gov/assets/oata/images/content/header/logo.svg",
+  "ok"
+ ],
+ [
+  "Conflicts of Interest Board",
+  "Advisory or Regulatory Organization",
+  "https://www.nyc.gov/site/coib/index.page",
+  "https://www.nyc.gov/assets/coib/images/content/header/logo.png",
+  "ok"
+ ],
+ [
+  "Mayor's Office for International Affairs",
+  "Mayoral Office",
+  "https://www.nyc.gov/site/international/index.page",
+  "https://www.nyc.gov/assets/international/images/content/header/logo.png",
+  "ok"
+ ],
+ [
+  "Department of Environmental Protection",
+  "Mayoral Agency",
+  "https://www.nyc.gov/site/dep/index.page",
+  "https://www.nyc.gov/assets/dep/images/content/header/logo.svg",
+  "ok"
+ ],
+ [
+  "Street Harassment Prevention Advisory Board",
+  "Advisory or Regulatory Organization",
+  "https://www.nyc.gov/site/ocdv/programs/end-street-harassment.page",
+  "https://www.nyc.gov/assets/ocdv/images/content/header/logo.png",
+  "ok"
+ ],
+ [
+  "Office of Labor Relations",
+  "Mayoral Office",
+  "https://www1.nyc.gov/site/olr/index.page",
+  "https://www1.nyc.gov/assets/olr/images/content/header/logo.png",
+  "ok"
+ ],
+ [
+  "Archival Review Board",
+  "Advisory or Regulatory Organization",
+  "https://www.nyc.gov/site/records/about/archival-review-board.page",
+  "https://www.nyc.gov/assets/records/images/content/header/records_logo.svg",
+  "ok"
+ ],
+ [
+  "Department of Health and Mental Hygiene",
+  "Mayoral Agency",
+  "https://www.nyc.gov/site/doh/index.page",
+  "https://www.nyc.gov/assets/doh/images/content/header/logo.png",
+  "ok"
+ ],
+ [
+  "New York City Transitional Finance Authority",
+  "Public Benefit or Development Organization",
+  "https://www.nyc.gov/site/transitionalfinance/index.page",
+  "https://www.nyc.gov/assets/transitionalfinance/images/content/header/logo.svg",
+  "ok"
+ ],
+ [
+  "Department of Cultural Affairs",
+  "Mayoral Agency",
+  "https://www.nyc.gov/site/dcla/index.page",
+  "https://www.nyc.gov/assets/dcla/images/content/header/logo.svg",
+  "ok"
+ ],
+ [
+  "Workforce Development Board",
+  "Advisory or Regulatory Organization",
+  "https://www1.nyc.gov/site/wkdev/workforce-board/about-the-board.page",
+  "https://www1.nyc.gov/assets/wkdev/images/content/header/logo.png",
+  "ok"
+ ],
+ [
+  "Office of the Chief Medical Examiner",
+  "Mayoral Agency",
+  "https://www1.nyc.gov/site/ocme/index.page",
+  "https://www1.nyc.gov/assets/ocme/images/content/header/logo.png",
+  "ok"
+ ],
+ [
+  "Department of Citywide Administrative Services",
+  "Mayoral Agency",
+  "https://www.nyc.gov/site/dcas/index.page",
+  "https://www.nyc.gov/assets/dcas/images/content/header/DCAS-Logo.png",
+  "ok"
+ ]
+]
