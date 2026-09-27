@@ -162,10 +162,12 @@ a:hover { text-decoration-color: currentColor; }
   padding-bottom: .4rem; border-bottom: 2px solid var(--rule); max-width: var(--wide); }
 .h-sec .count { margin-left: 0; }
 .h-sec .src { margin-left: auto; font-size: 12px; font-weight: 400; color: var(--ink-faint); }
-.notice { border: 1px solid var(--hair-strong); border-left: 4px solid var(--red); border-radius: var(--radius); padding: .9rem 1.1rem;
-  font-size: .92rem; margin: 2rem 0; max-width: var(--measure); }
+.notice-band { background: var(--wash); border-bottom: 1px solid var(--hair-strong); padding: .75rem 20px; }
+.notice { border-left: 3px solid var(--line); padding: .1rem 0 .1rem 1rem;
+  font-size: .86rem; line-height: 1.5; color: var(--ink-soft); max-width: 70rem; margin: 0 auto; }
 .notice p { margin: 0; }
-.notice strong { color: var(--red); }
+.notice strong { color: var(--ink); }
+.notice a, .colophon .disclaimer a { color: var(--accent); }
 
 /* ---- Home ------------------------------------------------------ */
 
@@ -340,6 +342,9 @@ input.tool:focus { border-color: var(--accent); outline: 2px solid var(--accent)
 .colophon { margin-top: 4rem; padding-top: 1rem; border-top: 1px solid var(--hair); font-size: 12px; line-height: 1.6;
   color: var(--ink-faint); max-width: var(--measure); }
 .colophon p { margin: 0 0 .3rem; }
+.colophon .disclaimer { color: var(--ink-soft); }
+.colophon .disclaimer strong { color: var(--ink); }
+.colophon .portfolio { margin-top: 1rem; padding-top: .75rem; border-top: 1px solid var(--hair); }
 
 /* ---- Medium ---------------------------------------------------- */
 

@@ -245,7 +245,7 @@
       TYPES.map(function (t) {
         return '<tr><td>' + sw(t.g) + '</td><td><a href="?type=' + t.k + '" data-nav>' + esc(t.label) + '</a></td><td class="num">' + t.entries.length + '</td></tr>';
       }).join('') + '</tbody></table>' +
-      notice() + '</article>' + footer();
+      '</article>' + footer();
   }
 
   /* ---- Listing -------------------------------------------------- */
@@ -584,7 +584,6 @@
     return '<article class="prose">' +
       '<h1 class="title">About</h1>' +
       '<p class="lead">' + SITE + ' brings the City’s agency list, Green Book contacts and payroll counts into one directory.</p>' +
-      notice() +
       '<section id="sources" tabindex="-1"><h2 class="h-sec">Sources</h2>' + sourcesList() + '</section>' +
       '<h2 class="h-sec">How the sources fit together</h2>' +
       '<p>The City’s agency list defines the entries. Green Book and payroll records are matched by name or acronym, with manual mappings for exceptions. A dash means this directory has no value or match to show; it does not mean zero.</p>' +
@@ -592,11 +591,15 @@
       '<p>Logos are copied from each body’s official web page and shown for identification. Where none is published, the space says so.</p>' +
       '</article>' + footer();
   }
+  function disclaimer() {
+    return '<strong>This is not an official product.</strong> It is an independent initiative, not affiliated with, endorsed by, or produced by the City of New York. Please refer to <a href="https://www.nyc.gov/main/your-government/agency-directory">NYC.gov</a> for authoritative information.';
+  }
   function notice() {
-    return '<div class="notice"><p><strong>This is not an official product.</strong> It is an independent initiative, not affiliated with, endorsed by, or produced by the City of New York. Please refer to <a href="https://www.nyc.gov/main/your-government/agency-directory">NYC.gov</a> for authoritative information.</p></div>';
+    return '<div class="notice"><p>' + disclaimer() + '</p></div>';
   }
   function footer() {
-    return '<footer class="colophon"><p class="portfolio">A <a href="https://publicworks.nyc/">publicworks.nyc</a> project.</p></footer>';
+    return '<footer class="colophon"><p class="disclaimer">' + disclaimer() + '</p>' +
+      '<p class="portfolio">A <a href="https://publicworks.nyc/">publicworks.nyc</a> project.</p></footer>';
   }
 
   /* ---- Quiz ---------------------------------------------------- */
@@ -694,6 +697,9 @@
     var view = a ? 'entry' : (state.view || 'home');
     drawn = location.search;
     document.body.dataset.view = view;
+    var noticeHost = $('#home-notice');
+    noticeHost.hidden = view !== 'home';
+    noticeHost.innerHTML = view === 'home' ? notice() : '';
     chart = null; selected = null;
     $('#main').innerHTML =
       view === 'entry' ? viewEntry(a) :
