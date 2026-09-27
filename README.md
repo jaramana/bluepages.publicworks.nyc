@@ -41,9 +41,10 @@ static agency pages have not been built.
 
 ## Tools
 
-Site: HTML, CSS and JavaScript, with vendored d3, d3-flextree and d3-org-chart for
-the Org Chart. Source joining: Python standard library. Claude was used in
-development.
+Source joining: Python's standard library matches Green Book and payroll
+records to the agency list. Website: static HTML, CSS and JavaScript, served
+from GitHub Pages, with vendored D3, d3-flextree and d3-org-chart for the Org
+Chart. Claude was used in development.
 
 ## License and reuse
 

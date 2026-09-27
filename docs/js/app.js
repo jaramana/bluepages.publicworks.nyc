@@ -585,11 +585,22 @@
     return '<article class="prose">' +
       '<h1 class="title">About</h1>' +
       '<p class="lead">' + SITE + ' brings the City’s agency list, Green Book contacts and payroll counts into one directory.</p>' +
+      '<h2 class="h-sec">Why</h2>' +
+      '<p>The City’s agency list, Green Book and payroll publish related information in separate places. This directory brings their matched records together.</p>' +
+      '<h2 class="h-sec">Scope</h2>' +
+      '<p>The agency list defines all 307 listings. Green Book and payroll records are matched by name or acronym, with manual mappings for exceptions. A dash means there is no value or match to show; it does not mean zero. The list gives no reporting line for 175 entries.</p>' +
+      '<p>The Org Chart places an organization with two parents under its first listed parent; the outline shows both.</p>' +
+      '<h2 class="h-sec">Built</h2>' +
+      '<p>Python’s standard library joins Green Book and payroll records to the agency list. The website uses static HTML, CSS and JavaScript, served from GitHub Pages, with vendored D3, d3-flextree and d3-org-chart for the Org Chart.</p>' +
+      '<h2 class="h-sec">Independence</h2>' +
+      '<p>No agency reviewed this site.</p>' +
+      '<h2 class="h-sec">Credits</h2>' +
+      '<p>Data from the City’s agency list, Green Book and Citywide Payroll. Logos come from the organizations’ official web pages and are shown for identification. Claude was used in development.</p>' +
       '<section id="sources" tabindex="-1"><h2 class="h-sec">Sources</h2>' + sourcesList() + '</section>' +
-      '<h2 class="h-sec">How the sources fit together</h2>' +
-      '<p>The City’s agency list defines the entries. Green Book and payroll records are matched by name or acronym, with manual mappings for exceptions. A dash means this directory has no value or match to show; it does not mean zero.</p>' +
-      '<h2 class="h-sec">Logos</h2>' +
-      '<p>Logos are copied from each body’s official web page and shown for identification. Where none is published, the space says so.</p>' +
+      '<h2 class="h-sec">Reuse</h2>' +
+      '<p>Code is BSD 3-Clause licensed. City data retain their source terms. Logos belong to their organizations.</p>' +
+      '<h2 class="h-sec">Contact</h2>' +
+      '<p>If you find an error, <a href="https://github.com/jaramana/bluepages.publicworks.nyc/issues">open an issue</a>.</p>' +
       '</article>' + footer();
   }
   function disclaimer() {
