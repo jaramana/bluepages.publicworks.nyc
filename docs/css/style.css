@@ -162,10 +162,10 @@ a:hover { text-decoration-color: currentColor; }
   padding-bottom: .4rem; border-bottom: 2px solid var(--rule); max-width: var(--wide); }
 .h-sec .count { margin-left: 0; }
 .h-sec .src { margin-left: auto; font-size: 12px; font-weight: 400; color: var(--ink-faint); }
-.notice-band { background: var(--wash); border-bottom: 1px solid var(--hair-strong); padding: .75rem 20px; }
-.notice { border-left: 3px solid var(--line); padding: .1rem 0 .1rem 1rem;
-  font-size: .86rem; line-height: 1.5; color: var(--ink-soft); max-width: 70rem; margin: 0 auto; }
-.notice p { margin: 0; }
+.notice { border-left: 3px solid var(--line); background: var(--wash); padding: .85rem 1rem;
+  border-radius: 0 8px 8px 0; font-size: .89rem; line-height: 1.5;
+  color: var(--ink-soft); max-width: var(--measure); margin: 1.5rem 0; }
+.notice p { margin: 0; max-width: none; }
 .notice strong { color: var(--ink); }
 .notice a, .colophon .disclaimer a { color: var(--accent); }
 

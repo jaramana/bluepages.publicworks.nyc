@@ -240,6 +240,7 @@
         '<div class="stat"><b>' + ORDER.filter(function (a) { return a.staff != null; }).length + '</b><span>with staff counts from payroll</span></div>' +
         '<div class="stat"><b>' + noParent + '</b><span>with no reporting line listed</span></div>' +
       '</div>' +
+      notice() +
       '<p>Look up any listing in the index, open the <a href="?view=chart" data-nav>Org Chart</a>, or browse by type.</p>' +
       '<table class="types-table"><thead><tr><th scope="col"><span class="visually-hidden">Color</span></th><th scope="col">Type</th><th scope="col" class="num">Listings</th></tr></thead><tbody>' +
       TYPES.map(function (t) {
@@ -697,9 +698,6 @@
     var view = a ? 'entry' : (state.view || 'home');
     drawn = location.search;
     document.body.dataset.view = view;
-    var noticeHost = $('#home-notice');
-    noticeHost.hidden = view !== 'home';
-    noticeHost.innerHTML = view === 'home' ? notice() : '';
     chart = null; selected = null;
     $('#main').innerHTML =
       view === 'entry' ? viewEntry(a) :
