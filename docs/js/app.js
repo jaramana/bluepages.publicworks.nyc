@@ -583,7 +583,7 @@
     document.title = 'About · ' + SITE;
     return '<article class="prose">' +
       '<h1 class="title">About</h1>' +
-      '<p class="lead">' + SITE + ' collects what the City publishes about its own structure into one place you can browse.</p>' +
+      '<p class="lead">' + SITE + ' brings the City’s agency list, Green Book contacts and payroll counts into one directory.</p>' +
       notice() +
       '<section id="sources" tabindex="-1"><h2 class="h-sec">Sources</h2>' + sourcesList() + '</section>' +
       '<h2 class="h-sec">How the sources fit together</h2>' +
@@ -596,8 +596,7 @@
     return '<div class="notice"><p><strong>This is not an official product.</strong> It is an independent initiative, not affiliated with, endorsed by, or produced by the City of New York. Please refer to <a href="https://www.nyc.gov/main/your-government/agency-directory">NYC.gov</a> for authoritative information.</p></div>';
   }
   function footer() {
-    return '<footer class="colophon"><p>Data retrieved 25 September 2026. Staff counts cover fiscal years 2014 to 2025.</p>' +
-      '<p>A <a href="https://publicworks.nyc">publicworks.nyc</a> project. Not an official City product. <a href="?view=about" data-nav>About</a>.</p></footer>';
+    return '<footer class="colophon"><p class="portfolio">A <a href="https://publicworks.nyc/">publicworks.nyc</a> project.</p></footer>';
   }
 
   /* ---- Quiz ---------------------------------------------------- */
