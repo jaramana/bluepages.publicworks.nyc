@@ -264,7 +264,7 @@
       '" y="' + (H + 12) + '" text-anchor="end">' + series[n - 1][0] + '</text></svg>';
   }
 
-  function src(k) { return '<a href="#sources">' + SOURCES[k].name + '</a>'; }
+  function src(k) { return '<a href="?view=data#sources">' + SOURCES[k].name + '</a>'; }
   function fact(label, value, source) {
     return '<div class="fact"><dt>' + label + '</dt><dd>' + (value || NONE) + '</dd><p class="src-note">' + src(source) + '</p></div>';
   }
@@ -588,21 +588,72 @@
       '<h2 class="h-sec">Why</h2>' +
       '<p>The City’s agency list, Green Book and payroll publish related information in separate places. This directory brings their matched records together.</p>' +
       '<h2 class="h-sec">Scope</h2>' +
-      '<p>The agency list defines all 307 listings. Green Book and payroll records are matched by name or acronym, with manual mappings for exceptions. A dash means there is no value or match to show; it does not mean zero. The list gives no reporting line for 175 entries.</p>' +
-      '<p>The Org Chart places an organization with two parents under its first listed parent; the outline shows both.</p>' +
+      '<p>The agency list defines all 307 listings. Green Book and payroll records are matched by name or acronym, so some listings have no match. <a href="?view=data" data-nav>Data</a> lists the sources, limits and downloads.</p>' +
       '<h2 class="h-sec">Built</h2>' +
       '<p>Python’s standard library joins Green Book and payroll records to the agency list. The website uses static HTML, CSS and JavaScript, served from GitHub Pages, with vendored D3, d3-flextree and d3-org-chart for the Org Chart.</p>' +
       '<h2 class="h-sec">Independence</h2>' +
       '<p>No agency reviewed this site.</p>' +
       '<h2 class="h-sec">Credits</h2>' +
       '<p>Data from the City’s agency list, Green Book and Citywide Payroll. Logos come from the organizations’ official web pages and are shown for identification. Claude was used in development.</p>' +
-      '<section id="sources" tabindex="-1"><h2 class="h-sec">Sources</h2>' + sourcesList() + '</section>' +
       '<h2 class="h-sec">Reuse</h2>' +
       '<p>Code is BSD 3-Clause licensed. City data retain their source terms. Logos belong to their organizations.</p>' +
       '<h2 class="h-sec">Contact</h2>' +
       '<p>If you find an error, <a href="https://github.com/jaramana/bluepages.publicworks.nyc/issues">open an issue</a>.</p>' +
       '</article>' + footer();
   }
+
+  var COLUMNS = [
+    ['id', 'The listing’s address in this site, used in ?a=<id>.'],
+    ['name', 'The organization’s name in the agency list.'],
+    ['acronym', 'Its acronym, where the list gives one.'],
+    ['type', 'Its type in the agency list, such as Mayoral Agency.'],
+    ['website', 'Its website, from the agency list.'],
+    ['head', 'The published head of the organization.'],
+    ['head_title', 'The head’s title.'],
+    ['reports_to', 'Who the organization reports to. Blank for 175 listings, where the list gives no reporting line.'],
+    ['also_known_as', 'Another name the list gives for it.'],
+    ['green_book_officials', 'The number of Green Book officials matched to the listing. Blank when there is no match.'],
+    ['payroll_year', 'The latest fiscal year with a matched payroll count.'],
+    ['payroll_staff', 'Active salaried, hourly and daily payroll records in that year. Blank when there is no match.']
+  ];
+
+  function viewData() {
+    document.title = 'Data · ' + SITE;
+    return '<article class="prose">' +
+      '<h1 class="title">Data</h1>' +
+      '<p class="lead">The files behind this directory and how they are made.</p>' +
+      '<h2 class="h-sec" id="downloads">Downloads</h2>' +
+      '<div class="downloads"><a class="download" href="downloads/bluepages-listings.csv" download>' +
+        '<h3>Listings</h3><p>All 307 listings, with payroll counts and Green Book official counts where matched. CSV.</p></a></div>' +
+      '<details class="columns"><summary>Columns</summary>' +
+        '<p>A blank means there is no value or match. It does not mean zero.</p>' +
+        '<dl class="col-list">' + COLUMNS.map(function (c) { return '<dt><code>' + esc(c[0]) + '</code></dt><dd>' + esc(c[1]) + '</dd>'; }).join('') + '</dl>' +
+      '</details>' +
+      '<p class="data-note">Snapshot taken 25 September 2026. Free to reuse with attribution. City data retain their source terms.</p>' +
+      '<section id="sources" tabindex="-1"><h2 class="h-sec">Sources</h2>' + sourcesList() + '</section>' +
+      '<h2 class="h-sec" id="process">Process</h2>' +
+      '<p>The directory is built in four steps.</p>' +
+      '<ol class="process">' +
+        '<li><h3>Collect</h3><p>The site uses snapshots of three City sources, all retrieved on 25 September 2026. Payroll counts come through The Pay Gap. Logos come from the organizations’ official web pages.</p></li>' +
+        '<li><h3>Match</h3><p>The agency list defines all 307 listings. A script joins Green Book and payroll records to it by name or acronym, with manual mappings for exceptions. The <a href="https://github.com/jaramana/bluepages.publicworks.nyc/blob/main/research/crosswalk-report.md">crosswalk report</a> lists records the join could not place.</p></li>' +
+        '<li><h3>Check</h3><p>A dash means there is no value or match to show. It does not mean zero.</p></li>' +
+        '<li><h3>Publish</h3><p>The join writes the static data files the pages read. There is no full refresh pipeline or scheduled update, so the directory stays as of 25 September 2026 until someone takes a new snapshot.</p></li>' +
+      '</ol>' +
+      '<h2 class="h-sec" id="notes">Notes</h2>' +
+      '<ul class="notes">' +
+        '<li>An organization with two parents appears under the first in the Org Chart and under both in the outline view.</li>' +
+        '<li>Staff counts include active salaried, hourly and daily payroll records. They differ from The Pay Gap’s salaried-only counts.</li>' +
+        '<li>Green Book officials appear in source order, with at most 40 on one listing.</li>' +
+      '</ul>' +
+      '<h2 class="h-sec" id="limits">Limits</h2>' +
+      '<ul class="notes">' +
+        '<li>The agency list gives no reporting line for 175 of the 307 entries.</li>' +
+        '<li>Green Book records match 101 listings and payroll records match 82. Logos are available for 114.</li>' +
+        '<li>Leadership, contacts and staff counts are as published in the snapshot and can be out of date.</li>' +
+      '</ul>' +
+      '</article>' + footer();
+  }
+
   function disclaimer() {
     return '<strong>This is not an official product.</strong> It is an independent initiative, not affiliated with, endorsed by, or produced by the City of New York. Please refer to <a href="https://www.nyc.gov/main/your-government/agency-directory">NYC.gov</a> for authoritative information.';
   }
@@ -714,6 +765,7 @@
       view === 'entry' ? viewEntry(a) :
       view === 'chart' ? viewChart() :
       view === 'quiz'  ? viewQuiz() :
+      view === 'data'  ? viewData() :
       view === 'about' ? viewAbout() : viewHome();
     $$('.topnav a').forEach(function (l) {
       var on = l.dataset.view === (view === 'entry' || view === 'home' ? '' : view);
@@ -793,7 +845,7 @@
     if (e.key === 'Escape' && e.target.id === 'q') { e.target.value = ''; state.q = ''; renderRail(); }
   });
 
-  // Following #sources changes only the hash. Leave the page as drawn and move focus to the target.
+  // Following #sources on the Data view changes only the hash. Leave the page as drawn and move focus to the target.
   var drawn = location.search;
   window.addEventListener('popstate', function () {
     if (location.search === drawn) return;

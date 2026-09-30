@@ -30,14 +30,20 @@ where sources can be matched.
 - Green Book officials appear in source order, with at most 40 on one listing.
   Logos are available for 114 listings.
 
+The [Data view](https://bluepages.publicworks.nyc/?view=data) lists the sources,
+limits and the listings CSV.
+
 ## Updates
 
-The published files are snapshots taken on 25 September 2026. There is no full
+The published files are snapshots taken on 25 September 2026. The Data view lists
+them with their sources and a CSV of all listings. There is no full
 fetch-and-validate pipeline or scheduled refresh. The Python script at
 `research/scripts/join_sources.py` can rebuild the Green Book and payroll matches
 when this repository sits beside The Pay Gap, but it does not publish a new
-edition of every source. Each listing currently opens through `?a=<id>`; separate
-static agency pages have not been built.
+edition of every source. `python3 research/scripts/export_csv.py` rewrites
+`docs/downloads/bluepages-listings.csv` from the data files. Each listing
+currently opens through `?a=<id>`; separate static agency pages have not been
+built.
 
 ## Tools
 
