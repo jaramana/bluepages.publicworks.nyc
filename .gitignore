@@ -7,3 +7,6 @@ __pycache__/
 HANDOFF.md
 working-with-Claude-brief.md
 de-ai.md
+
+# Local editor and preview settings
+.claude/
