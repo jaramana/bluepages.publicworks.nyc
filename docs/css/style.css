@@ -120,7 +120,7 @@ a:hover { text-decoration-color: currentColor; }
 .dd-menu input { accent-color: var(--accent); margin: 0; }
 .dd-menu .count { margin-left: auto; padding-left: 1rem; }
 .dd-foot { border-top: 1px solid var(--hair); margin-top: 6px; padding: 6px 12px 2px; }
-.dd-foot button { font: 500 12.5px var(--sans); background: none; border: 0; padding: 0; color: var(--accent); cursor: pointer; text-decoration: underline; }
+.dd-foot button { font: 500 12.5px var(--sans); background: none; border: 0; padding: 0; min-height: 24px; color: var(--accent); cursor: pointer; text-decoration: underline; }
 .dd-right .dd-menu { left: auto; right: 0; }
 
 .rail-list { position: relative; overflow-y: auto; flex: 1; padding-bottom: 24px; }
@@ -254,6 +254,7 @@ input.tool:focus { border-color: var(--accent); outline: 2px solid var(--accent)
 .chart-note { font-size: 12.5px; color: var(--ink-soft); margin: 0; padding: 6px 16px; border-bottom: 1px solid var(--hair); max-width: 72rem; }
 .chart-hint { font-size: 12px; color: var(--ink-faint); margin: 0; padding: 5px 16px; border-bottom: 1px solid var(--hair); }
 .chart-stage { position: relative; flex: 1; display: flex; min-height: 420px; }
+.chart-foot { font-size: 12px; color: var(--ink-faint); margin: 0; padding: 5px 16px; border-top: 1px solid var(--hair); }
 .chart-canvas { position: relative; flex: 1; background: var(--wash); overflow: hidden; }
 .chart-canvas svg { display: block; }
 .chart-outline { flex: 1; overflow: auto; padding: 24px 32px 48px; }

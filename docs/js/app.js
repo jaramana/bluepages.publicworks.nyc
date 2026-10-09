@@ -266,7 +266,7 @@
 
   function src(k) { return '<a href="?view=data#sources">' + SOURCES[k].name + '</a>'; }
   function fact(label, value, source) {
-    return '<div class="fact"><dt>' + label + '</dt><dd>' + (value || NONE) + '</dd><p class="src-note">' + src(source) + '</p></div>';
+    return '<div class="fact"><dt>' + label + '</dt><dd>' + (value || NONE) + '</dd><dd class="src-note">' + src(source) + '</dd></div>';
   }
   function section(title, count, body, source, id) {
     return '<section' + (id ? ' id="' + id + '" tabindex="-1"' : '') + '><h2 class="h-sec">' + title + (count != null ? ' <span class="count">' + count + '</span>' : '') +
@@ -445,7 +445,8 @@
         '<div class="chart-canvas" id="chart-canvas"' + (chartMode.outline ? ' hidden' : '') + '></div>' +
         '<div class="chart-outline" id="chart-outline"' + (chartMode.outline ? '' : ' hidden') + '>' + (chartMode.outline ? outline() : '') + '</div>' +
         '<aside class="panel" id="panel" hidden aria-live="polite"></aside>' +
-      '</div>';
+      '</div>' +
+      '<p class="chart-foot">A <a href="https://publicworks.nyc/">publicworks.nyc</a> project.</p>';
   }
 
   function drawChart() {
